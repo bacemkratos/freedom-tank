@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ec1c33ab380ab44a8d06a2c3a5cb9f, type: 3}
+  m_Name: df
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  enemies:
+  - prefab: {fileID: 6988667872178080754, guid: d6e4995c842ffac479a3add36bbe313b, type: 3}
+    count: 10
+    spawnInterval: 4
+    side: 2
+    mode: 0
+    offscreenMarginX: 2
+    minYViewport: 0
+    maxYViewport: 0.329
+    minAbovePlayerY: 5
+    maxBelowTopWorld: 0
+    zOffset: 0
+    zRandomRange: 0
+    fixedWorldPosition: {x: 0, y: 0, z: 0}
+    fixedUsePlayerZ: 1
+  - prefab: {fileID: 3072278719745549583, guid: 2388b849f484f8f47b72fe1fa4cc00d8, type: 3}
+    count: 10
+    spawnInterval: 4
+    side: 2
+    mode: 0
+    offscreenMarginX: 2
+    minYViewport: 0.55
+    maxYViewport: 0.95
+    minAbovePlayerY: 5
+    maxBelowTopWorld: 0
+    zOffset: 0
+    zRandomRange: 0
+    fixedWorldPosition: {x: 0, y: 0, z: 0}
+    fixedUsePlayerZ: 1
